@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Horizontal Line -->
+    <hr />
+
+    <!-- Paragraf -->
+    <h3>Paragraph</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br />
+      Magni excepturi quod dolorum laborum quasi voluptatem pariatur adipisci<br />
+      itaque commodi labore possimus temporibus error,<br />
+      voluptatum quae eos harum praesentium ducimus facilis!
+    </p>
+
+    <p>
+      <b>bold</b><br />
+      <i>italic</i><br />
+      <u>underlined</u>
+    </p>
+
+    <hr />
+
+    <!-- Ordered List -->
+    <h3>Ordered List</h3>
+    <ol type="1">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h3>Unordered List</h3>
+    <ul type="disc">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ul>
+    <ul type="square">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ul>
+    <ul type="circle">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ul>
+
+    <!-- Description List -->
+    <h3>Description List</h3>
+    <dl>
+      <dt>Judul Content 1</dt>
+      <dd>Isi Content 1</dd>
+      <dt>Judul Content 2</dt>
+      <dd>Isi Content 2</dd>
+    </dl>
+
+    <hr />
+
+    <!-- Hyperlink -->
+    <h3>Hyperlink Eksternal</h3>
+    <a href="https://github.com/" target="_blank">Github</a>
+    <a href="https://youtube.com/">Link Youtube</a>
+    <a href="https://instagram.com/">Instagram</a>
+
+    <h3>Hyperlink Internal</h3>
+    <p>Click Page 1 <a href="page1.html">here</a></p>
+
+    <!-- Relative URL -->
+    <h3>Relative URL</h3>
+    <p>Click Page 2 <a href="/page2/page2.html">here</a></p>
+
+    <hr />
+
+    <!-- Image -->
+    <h3>Image</h3>
+    <p>Internal Resource</p>
+    <img src="vscode1.png" alt="vscode1" height="150px" width="150px" />
+
+    <p>Eksternal Resource</p>
+    <img src="page2/vscode5.jpeg" alt="vscode5" height="150px" width="150px" />
+
+    <hr />
+
+    <!-- Table -->
+    <h3>Table</h3>
+    <table
+      border=""
+      cellspacing="0"
+      cellpadding="5px"
+      width="300px"
+      height="100px"
+    >
+      <!-- thead = header pada table -->
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>College</th>
+        </tr>
+      </thead>
+      <!-- tr = baris -->
+      <tr>
+        <!-- td = kolom -->
+        <td>1</td>
+        <td>Wiidz</td>
+        <td>Dian Nuswantoro University</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Albert</td>
+        <td>Indonesia University</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Robert</td>
+        <td>Harvard University</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- Form -->
+    <h3>Form</h3>
+    <form action="">
+      <!-- Text -->
+      <label for="username">Username : </label>
+      <input type="text" id="username" />
+      <br /><br />
+      <label for="password">Password : </label>
+      <input type="password" id="password" />
+      <br /><br />
+      <!-- Radio -->
+      <!-- Pria -->
+      <input type="radio" id="pria" name="gender" />
+      <label for="pria">Pria</label>
+      <!-- Wanita -->
+      <input type="radio" id="wanita" name="gender" />
+      <label for="wanita">Wanita</label>
+      <br /><br />
+      <!-- CheckBox -->
+      <!-- Hobby -->
+      <label for="hobby"><b>Hobby</b></label>
+      <br />
+      <input type="checkbox" id="coding" name="hobby" value="coding" />
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="swimming" name="hobby" value="swimming" />
+      <label for="swimming">Swimming</label>
+      <input type="checkbox" id="studying" name="hobby" value="studying" />
+      <label for="studying">Studying</label>
+      <br /><br />
+      <!-- Textarea -->
+      <label for="comment">Comment</label>
+      <textarea name="comment" id="" cols="30" rows="3"></textarea>
+      <!-- Select -->
+      <h3>Brand</h3>
+      <select name="brand" id="">
+        <option value="brand">Iphone</option>
+        <option value="brand">Samsung</option>
+        <option value="brand">Xiaomi</option>
+      </select>
+      <br /><br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
