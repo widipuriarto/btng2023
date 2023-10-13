@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+  }
+  h1 {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 15px;
+    background-color: greenyellow;
+  }
+  
+  span {
+    color: burlywood;
+  }
+  
+  .container {
+    box-shadow: blueviolet;
+  }
+  
+  #judul1 {
+    font-weight: 500;
+    color: chocolate;
+  }
+  #judul2 {
+    font-size: larger;
+    color: cornsilk;
+  }
+  
+  .content {
+    background-color: beige;
+  }
+  
+  #judul1,
+  #judul2,
+  .content {
+    color: black;
+  }
+  
+  .box a {
+    background-color: darkolivegreen;
+    color: black;
+    font-size: xx-large;
+  }
+  
+  .box:hover {
+    background-color: coral;
+  }
+  
