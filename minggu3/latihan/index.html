@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="p-3 bg-primary mt-2">Hello World!</div>
+    <div class="p-3 bg-info mt-2">Hello World!</div>
+    <div class="bg-success mt-5">
+        <h1 class="text-light">Judul</h1>
+        <h3 class="text-decoration-underline text-light">SubJudul</h3>
+        <p class="text-end text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum excepturi rerum sequi repudiandae iusto dolore. Consequatur obcaecati eligendi omnis impedit debitis et quidem libero soluta magni quos vitae, illo ipsa.
+        </p>
+    </div>
+    <div class="bg-danger mt-5">
+        <h1 class="text-light">Judul</h1>
+        <h3 class="text-decoration-underline text-light">SubJudul</h3>
+        <p class="text-center text-light fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum excepturi rerum sequi repudiandae iusto dolore. Consequatur obcaecati eligendi omnis impedit debitis et quidem libero soluta magni quos vitae, illo ipsa.
+        </p>
+    </div>
+    <br>
+    <!-- Latihan -->
+<div class="bg-secondary">
+    <!-- Flex -->
+    <p class="text-light pt-3">Flex</p>
+    <div class="d-flex mb-3">
+        <div class="bg-danger p-3 text-light">Kotak 1</div>
+        <div class="bg-warning p-3 text-success">Kotak 2</div>
+        <div class="bg-info p-3 text-primary">Kotak 3</div>
+    </div>
+    <!-- Flex row reverse -->
+    <p class="text-light text-end">Flex row reverse</p>
+    <div class="d-flex flex-row-reverse mb-3">
+        <div class="bg-danger p-3 text-light">Kotak 1</div>
+        <div class="bg-warning p-3 text-success">Kotak 2</div>
+        <div class="bg-info p-3 text-primary">Kotak 3</div>
+    </div>
+    <!-- Justify-content-between -->
+    <p class="text-light text-center">justify-content-between</p>
+    <div class="d-flex justify-content-between mb-3">
+        <div class="bg-danger p-3 text-light">Kotak 1</div>
+        <div class="bg-warning p-3 text-success">Kotak 2</div>
+        <div class="bg-info p-3 text-primary">Kotak 3</div>
+    </div>
+    <!-- Justify-content-around -->
+    <p class="text-light text-center">justify-content-around</p>
+    <div class="d-flex justify-content-around p-3">
+        <div class="bg-danger p-3 text-light">Kotak 1</div>
+        <div class="bg-warning p-3 text-success">Kotak 2</div>
+        <div class="bg-info p-3 text-primary">Kotak 3</div>
+    </div>
+</div>
+    <br>
+    <!-- Border -->
+    <div class="d-flex">
+        <div class="bg-info p-3 border border-dark border-5 border-start-0 m-2">border</div>
+        <div class="bg-info p-3 border border-dark border-5 border-top-0 m-2">border</div>
+        <div class="bg-info p-3 border border-dark border-5 border-bottom-0 m-2">border</div>
+    </div>
+
+    <!-- Border Radius -->
+    <div class="d-flex">
+        <div class="bg-info p-3 border border-dark border-5 rounded-pill m-2">border</div>
+        <div class="bg-info p-3 border border-dark border-5 rounded-circle m-2">border</div>
+        <div class="bg-info p-3 border border-dark border-5 rounded-start m-2">border</div>
+    </div>
+
+    <!-- Shadow -->
+    <div class="shadow-sm bg-light p-3 mb-4">Small shadow</div>
+    <div class="shadow bg-light p-3 mb-4">Regular shadow</div>
+    <div class="shadow-lg bg-light p-3 mb-4">Larger shadow</div>
+
+    <!-- Layout -->
+    <div class="row">
+        <div class="col-1 bg-primary p-2">col 1</div>
+        <div class="col-1 bg-success p-2">col 2</div>
+        <div class="col-1 bg-primary p-2">col 3</div>
+        <div class="col-1 bg-success p-2">col 4</div>
+        <div class="col-1 bg-primary p-2">col 5</div>
+        <div class="col-1 bg-success p-2">col 6</div>
+        <div class="col-1 bg-primary p-2">col 7</div>
+        <div class="col-1 bg-success p-2">col 8</div>
+        <div class="col-1 bg-primary p-2">col 9</div>
+        <div class="col-1 bg-success p-2">col 10</div>
+        <div class="col-1 bg-primary p-2">col 11</div>
+        <div class="col-1 bg-success p-2">col 12</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2 bg-warning p-2">col 1</div>
+        <div class="col-2 bg-primary p-2">col 1</div>
+        <div class="col-2 bg-warning p-2">col 1</div>
+        <div class="col-2 bg-primary p-2">col 1</div>
+        <div class="col-2 bg-warning p-2">col 1</div>
+        <div class="col-2 bg-primary p-2">col 1</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-3 bg-info">col 1</div>
+        <div class="col-3 bg-danger">col 2</div>
+        <div class="col-3 bg-info">col 3</div>
+        <div class="col-3 bg-danger">col 4</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4 bg-success">col 1</div>
+        <div class="col-4 bg-warning">col 2</div>
+        <div class="col-4 bg-success">col 3</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-6 bg-warning">col 1</div>
+        <div class="col-6 bg-danger">col 2</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12 bg-info">col-1</div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <!-- Latihan Layout -->
+    <div class="container mb-5">
+        <div class="row p-3 bg-danger">
+            <div class="col-12">
+            <p class="fw-bold text-center">Breakpoint pada Bootstrap</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 bg-info">
+                <p class="fw-bold">Side bar</p>
+                <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-8 bg-success">
+                <p class="fw-bold">Content</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="box bg-secondary">
+                            <p>Card 1
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="box bg-secondary">
+                            <p>Card 2
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="box bg-secondary">
+                            <p>Card 3
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="box bg-secondary">
+                            <p>Card 4 Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-3 bg-warning">
+            <div class="col-12">
+                <p class="fw-bold text-center">Footer</p>
+            </div>
+        </div>
+    </div> 
+
+
+
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
